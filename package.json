@@ -1,8 +1,8 @@
 {
   "name": "firstlayer",
   "version": "1.0.0",
-  "description": "",
-  "main": "scipt.js",
+  "type": "module",
+  "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^5.1.0",
-    "google-auth-library": "^10.4.2"
-  }
+    "google-auth-library": "^10.4.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {},
+  "description": ""
 }
